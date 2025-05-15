@@ -1,6 +1,6 @@
 # Azure Verified Modules (AVM) for CAF tfvars Migration
 
-# CAF to AVM Module Mapping
+## CAF to AVM Module Mapping
 
 | Folder Name | CAF File                   | Relevant AVM File Name         | AVM Module Name                           | AVM Module Link                                                                                 |
 |-------------|----------------------------|--------------------------------|-------------------------------------------|-----------------------------------------------------------------------------------------------|
