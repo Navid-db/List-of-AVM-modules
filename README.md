@@ -1,12 +1,9 @@
 # Azure Verified Modules (AVM) for CAF tfvars Migration
 
-|Folder Name            | Files Names                                   | Relevat avm file names                                                                |
-|---------------------------|--------------------------------------------------|------------------------------------------------------------------------------|
-| Virtual Network           | `avm-res-network-virtualnetwork`                 | [README](https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork/blob/main/README.md) |
-| Virtual Machine           | `avm-res-compute-virtualmachine`                 | [README](https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachine/blob/main/README.md) |
-| Key Vault                 | `avm-res-keyvault-vault`                         | [README](https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault/blob/main/README.md) |
-| App Service Environment   | `avm-res-web-hostingenvironment`                 | [README](https://github.com/Azure/terraform-azurerm-avm-res-web-hostingenvironment/blob/main/README.md) |
-| Resource Group            | `avm-res-resources-resourcegroup`                | [README](https://github.com/Azure/terraform-azurerm-avm-res-resources-resourcegroup/blob/main/README.md) |
-| Managed Identity          | `avm-res-managedidentity-userassignedidentity`   | [README](https://github.com/Azure/terraform-azurerm-avm-res-managedidentity-userassignedidentity/blob/main/README.md) |
-
+| CAF File                     | AVM Module Name                                                                         | AVM Module Link                                                                                                |
+| ---------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| bastion.tfvars               | Azure Verified Module for Azure Bastion (avm-res-network-bastionhost)                   | [Terraform Registry](https://registry.terraform.io/modules/Azure/avm-res-network-bastionhost/azurerm)          |
+| nsg\_defititions.tfvars      | Azure Verified Module for Network Security Group (avm-res-network-networksecuritygroup) | [Terraform Registry](https://registry.terraform.io/modules/Azure/avm-res-network-networksecuritygroup/azurerm) |
+| public\_ip\_addresses.tfvars | Azure Verified Module for Public IP Address (avm-res-network-publicipaddress)           | [Terraform Registry](https://registry.terraform.io/modules/Azure/avm-res-network-publicipaddress/azurerm)      |
+| virtual\_networks.tfvars     | Azure Verified Module for Virtual Network (avm-res-network-virtualnetwork)              | [Terraform Registry](https://registry.terraform.io/modules/Azure/avm-res-network-virtualnetwork/azurerm)       |
 
