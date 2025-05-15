@@ -1,9 +1,11 @@
 # Azure Verified Modules (AVM) for CAF tfvars Migration
 
-| CAF File                     | AVM Module Name                                                                         | AVM Module Link                                                                                                |
-| ---------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| bastion.tfvars               | Azure Verified Module for Azure Bastion (avm-res-network-bastionhost)                   | [Terraform Registry](https://registry.terraform.io/modules/Azure/avm-res-network-bastionhost/azurerm)          |
-| nsg\_defititions.tfvars      | Azure Verified Module for Network Security Group (avm-res-network-networksecuritygroup) | [Terraform Registry](https://registry.terraform.io/modules/Azure/avm-res-network-networksecuritygroup/azurerm) |
-| public\_ip\_addresses.tfvars | Azure Verified Module for Public IP Address (avm-res-network-publicipaddress)           | [Terraform Registry](https://registry.terraform.io/modules/Azure/avm-res-network-publicipaddress/azurerm)      |
-| virtual\_networks.tfvars     | Azure Verified Module for Virtual Network (avm-res-network-virtualnetwork)              | [Terraform Registry](https://registry.terraform.io/modules/Azure/avm-res-network-virtualnetwork/azurerm)       |
+# CAF to AVM Module Mapping
+
+| Folder Name | CAF File                | Relevant AVM File Name         | AVM Module Name                                 | AVM Module Link                                                                                 |
+|-------------|-------------------------|-------------------------------|-------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| bastion     | bastion.tfvars          | bastion.tf                    | avm-res-network-bastionhost                     | [Terraform Registry](https://registry.terraform.io/modules/Azure/avm-res-network-bastionhost/azurerm) |
+| nsg         | nsg_defititions.tfvars  | network_security_group.tf      | avm-res-network-networksecuritygroup             | [Terraform Registry](https://registry.terraform.io/modules/Azure/avm-res-network-networksecuritygroup/azurerm) |
+| public_ip   | public_ip_addresses.tfvars | public_ip_addresses.tf       | avm-res-network-publicipaddress                 | [Terraform Registry](https://registry.terraform.io/modules/Azure/avm-res-network-publicipaddress/azurerm) |
+| vnet        | virtual_networks.tfvars | virtual_networks.tf            | avm-res-network-virtualnetwork                  | [Terraform Registry](https://registry.terraform.io/modules/Azure/avm-res-network-virtualnetwork/azurerm) |
 
